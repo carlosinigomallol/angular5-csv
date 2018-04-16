@@ -4,7 +4,7 @@
   "description": "Helper library for create CSV file in Angular 5",
   "repository": {
     "type": "git",
-    "url": "http://vlrepo.ebnbanco.com/ebn/angular5-csv/blob/master/package.json"
+    "url": "git+https://vlrepo.ebnbanco.com/ebn/angular5-csv/blob/master/package.json"
   },
   "scripts": {
     "dev": "tsc --watch",
