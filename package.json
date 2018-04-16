@@ -4,7 +4,7 @@
   "description": "Helper library for create CSV file in Angular 5",
   "repository": {
     "type": "git",
-    "url": "git+https://vlrepo.ebnbanco.com/ebn/angular5-csv/blob/master/package.json"
+    "url": "https://github.com/carlosinigomallol/angular5-csv.git"
   },
   "scripts": {
     "dev": "tsc --watch",
@@ -33,11 +33,11 @@
   ],
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/alhazmy13/angular5-csv/issues"
+    "url": "https://github.com/carlosinigomallol/angular5-csv/issues"
   },
   "main": "./dist/Angular2-csv.js",
   "typings": "/dist/Angular2-csv.d.ts",
-  "homepage": "https://github.com/alhazmy13/angular5-csv#readme",
+  "homepage": "https://github.com/carlosinigomallol/angular5-csv#readme",
   "devDependencies": {
     "@angular/common": "^5.0.0",
     "@angular/core": "^5.0.0",
