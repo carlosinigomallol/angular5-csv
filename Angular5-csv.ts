@@ -130,7 +130,9 @@ export class Angular5Csv {
         for (let i = 0; i < this.data.length; i++) {
             let row = "";
             for (const index in this.data[i]) {
-                row += this.formartData(this.data[i][index]) + this._options.fieldSeparator;
+            	if (typeof this.data[i][index] !== 'object') {
+                	row += this.formartData(this.data[i][index]) + this._options.fieldSeparator;
+                }
             }
 
             row = row.slice(0, -1);
@@ -143,7 +145,9 @@ export class Angular5Csv {
      * @param {any} data
      */
     formartData(data: any) {
-
+		if (typeof data === 'object') {
+            return null;
+        }
         if (this._options.decimalseparator === 'locale' && Angular5Csv.isFloat(data)) {
             return data.toLocaleString();
         }
